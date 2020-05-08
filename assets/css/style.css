@@ -5,7 +5,7 @@
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*TOPO LOGO/MENU*/
@@ -17,6 +17,7 @@ header {
     display: flex;
     align-items: center;
     margin: auto;
+    width: 100%;
     max-width: 1140px;
     height: 100px;
 }
@@ -134,4 +135,59 @@ header {
     background-color: #b78c59;
 }
 
+.default {
+    padding: 60px 0;
+}
+.section-title,
+.section-desc {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+.section-desc {
+    font-size: 12px;
+    font-weight: 600;
+    color: #b3b3b3;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.section-body {
+    width: 100%;
+    margin: auto;
+    max-width: 1140px;
+}
 
+
+
+
+
+/* CSS DE AREAS ESPECIFICAS */
+/* SECTION ABOUT US */
+.section-aboutus {
+    display: flex;
+    justify-content: center;
+}
+.section-aboutus--left {
+    flex: 1;
+}
+.section-aboutus--left p {
+    padding-right: 20px;
+    color: #242424;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.section-aboutus--right {
+    margin: 0 20px;
+    width: 460px;
+    height: 315px;
+    box-shadow: 0 10px 20px #000;
+    background-color: #CCC;
+}
+
+
+/* SERVICES */ 
