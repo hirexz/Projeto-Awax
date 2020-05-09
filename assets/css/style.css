@@ -286,17 +286,111 @@ header {
     max-width: 1140px;
 }
 .section-projects--photo {
-    width: 265px;
+    width: 260px;
     height: 165px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 10px; 
 }
 
 .section-projects--photoarea {
-    width: 265px;
-    height: 165px;
+    width: inherit;
+    height: inherit;
 }
 .section-projects--photoarea img {
     width: inherit;
     height: inherit;
+}
+
+
+
+/* OUR TEAM */
+
+.bg-team {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+.section-team--area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-team {
+    max-width: 880px;
+    margin: auto;
+    overflow: hidden;
+}
+.section-team .sliders {
+    display: flex;
+    width: 300vw;
+    height: 100%;
+}
+.section-team .slide {
+    width: 280px;
+    height: 100%;
+    margin-right: 20px;
+    background-color: #FFF;
+}
+.section-team .slidearea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-team--image img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.section-team--name {
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.section-team--role {
+    color: #333;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.section-team--media {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section-team--media-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #CCC;
+    margin-right: 10px;
+}
+.section-team--media-item.active {
+    background-color: #b78c59;
+}
+
+.section-team .slider-pointers {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-team .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b78c59;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+.section-team .pointer.active {
+    background-color: #b78c59;
 }
