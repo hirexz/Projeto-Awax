@@ -138,6 +138,26 @@ header {
 .default {
     padding: 60px 0;
 }
+.default.light {
+    background-color: #f7f7f7;
+}
+.default.light .section-title {
+    color: #000;
+}
+.default.light .section-body {
+    color: #000000;
+}
+.default.dark {
+    background-color: #000000;
+}
+.default.dark .section-title {
+    color: #FFF;
+}
+.default.dark .section-body {
+    color: #FFF;
+}
+
+
 .section-title,
 .section-desc {
     text-align: center;
@@ -153,7 +173,7 @@ header {
     font-weight: 600;
     color: #b3b3b3;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .section-body {
     width: 100%;
@@ -190,4 +210,36 @@ header {
 }
 
 
+/*********************************************************************/
+
+
 /* SERVICES */ 
+.section-services {
+    display: flex;
+    text-align: center;
+}
+.section-services--item {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #333;
+    margin-top: 30px;
+}
+.section-services--item:first-child {
+    border-left: 1px solid #383838;
+}
+.section-services--title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.section-services--desc {
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/**************************************************************/
+
+
+/* OUR PROJECTS */
+
