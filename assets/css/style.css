@@ -243,3 +243,60 @@ header {
 
 /* OUR PROJECTS */
 
+.section-projects {
+    display: flex;
+    flex-direction: column;
+}
+.section-projects--filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.section-projects--filters ul {
+    display: inline-flex;
+    list-style: none;
+    border: 1px solid #cfcfcf;
+    background-color: #ededed;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+.section-projects--filters li {
+    color: #010101;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-left: 1px solid #cfcfcf;
+    border-bottom: 3px solid #ededed;
+    cursor: pointer;
+}
+.section-projects--filters li:hover {
+    border-bottom: 3px solid #b78c59;
+}
+.section-projects--filters li:first-child {
+    border-left: 0;
+}
+
+.section-projects--photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1140px;
+}
+.section-projects--photo {
+    width: 265px;
+    height: 165px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.section-projects--photoarea {
+    width: 265px;
+    height: 165px;
+}
+.section-projects--photoarea img {
+    width: inherit;
+    height: inherit;
+}
