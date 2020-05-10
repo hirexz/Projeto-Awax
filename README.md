@@ -15,3 +15,7 @@ Sexto Commit - Adicionado area OUR PROJECTS para o Projeto 3/9
 Setimo Commit - Adicionado area OUR TEAM com  SLIDE do Projeto 4/9
 
 Oitavo Commit - Adicionado are HAPPY CLIENTS com inclementação de Sliders para o Projeto Awax 5/9
+
+Nono - Criado a AREA EMPRESAS PARA O PROJETO 
+
+Décimo - Adicionado a Area PRICES para o Projeto 6/9
