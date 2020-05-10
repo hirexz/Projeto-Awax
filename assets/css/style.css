@@ -427,7 +427,7 @@ header {
     text-align: center;
     font-weight: 500;
     font-size: 14px;
-    color: #7E7E7E;
+    color: #f7f7f7;
     line-height: 22px;
 }
 .section-clients--name {
@@ -469,4 +469,22 @@ header {
 }
 
 
-/*  */
+/*  EMPRESAS  */
+
+.section-empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    background-color: #FFF;
+}
+.section-empresas--image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 130px;
+    height: 130px;
+}
