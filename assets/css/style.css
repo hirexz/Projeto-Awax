@@ -556,3 +556,61 @@ header {
 .section-prices--item .button2.active {
     background-color: #b78c59;
 }
+
+
+
+/* SECTION PREMIUM  */
+
+.section-premium {
+    display: flex;
+}
+.section-premium--left {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+}
+.section-premium--left img {
+    
+}
+.section-premium--right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.section-premium--content {
+    display: flex;
+    align-items: flex-start;
+
+    padding-bottom: 20px;
+}
+.section-premium--check {
+    
+    
+}
+.section-premium--title {
+    
+    margin-left: 30px;
+}
+.section-premium--title h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+.section-premium--title h2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-premium--title p {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #999;
+    line-height: 25px;
+}
+
+/*  */
