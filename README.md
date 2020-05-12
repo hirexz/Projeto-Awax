@@ -19,3 +19,5 @@ Oitavo Commit - Adicionado are HAPPY CLIENTS com inclementação de Sliders para
 Nono - Criado a AREA EMPRESAS PARA O PROJETO 
 
 Décimo - Adicionado a Area PRICES para o Projeto 6/9
+
+Décimo Primeiro Commit - Criado a AREA PREMIUM do Projeto. Obs: REFAZER ESTA ETAPA COM REDUÇÃO DE CLASSES. 7/9

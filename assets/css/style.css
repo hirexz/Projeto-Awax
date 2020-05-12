@@ -176,7 +176,7 @@ header {
     margin-bottom: 50px;
 }
 .section-body {
-    width: 100%;
+    width: 100vw;
     margin: auto;
     max-width: 1140px;
 }
@@ -562,55 +562,86 @@ header {
 /* SECTION PREMIUM  */
 
 .section-premium {
-    display: flex;
+    width: 100vw;
+    max-width: 1110px;
+    margin: auto;
+    overflow: hidden;
 }
-.section-premium--left {
+.section-premium  .sliders {
+    display: flex;
+    width: 1000vw;
+    height: 100%;
+}
+.section-premium  .slide {
+    width: 100vw;
+    max-width: 1110px;
+    height: 100%;
+    margin-right: 20px;
+   
+}
+.section-premium  .slidearea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+
+}
+.section-premium-image {
     display: flex;
     justify-content: center;
     width: 500px;
-    height: 100%;
+    height: auto;
 }
-.section-premium--left img {
-    
-}
-.section-premium--right {
+.section-premium-info {
     flex: 1;
-    display: flex;
-    flex-direction: column;
 }
 .section-premium--content {
+   display: flex;
+   flex-direction: column;
+}
+.section-premium--content-item {
     display: flex;
-    align-items: flex-start;
-
-    padding-bottom: 20px;
+    margin-bottom: 30px;
 }
-.section-premium--check {
-    
-    
+.section-premium--content  img {
+    width: 35px;
+    height: 30px;
+    margin-right: 20px;
 }
-.section-premium--title {
-    
-    margin-left: 30px;
-}
-.section-premium--title h1 {
-    font-size: 18px;
-    font-weight: 700;
+.section-premium--item h1 {
+    font-weight: 700px;
+    font-size: 20px;
+    text-transform: uppercase;
     color: #333;
-    text-transform: uppercase;
 }
-.section-premium--title h2 {
-    font-size: 13px;
-    font-weight: 400;
+.section-premium--item p {
     color: #999;
-    line-height: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.section-premium--title p {
-    text-transform: uppercase;
-    font-size: 13px;
-    color: #999;
+    font-size: 12px;
     line-height: 25px;
 }
-
-/*  */
+.section-premium .slider-pointers {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b78c59;
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.section-premium .pointer.active {
+    background-color: #b78c59;
+}
+.readmore-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
